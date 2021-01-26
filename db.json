@@ -1,5 +1,5 @@
 {
-    "bg": "https://articles.gamerheadquarters.com/images/top10/movies/10.jpg",
+    "bg": "https://images8.alphacoders.com/721/thumb-1920-721719.jpg",
     "title": "World Quiz",
     "description": "",
     "questions": [
@@ -33,8 +33,8 @@
     ],
     "theme": {
         "colors": {
-            "primary": "#2196f3",
-            "secondary": "#00e5ff",
+            "primary": "#512da8",
+            "secondary": "#d500f9",
             "mainBg": "#1C1814",
             "contrastText": "#FFFFFF",
             "wrong": "#FF5722",
