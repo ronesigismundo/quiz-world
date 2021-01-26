@@ -5,6 +5,7 @@ import Footer from '../src/components/Footer'
 import GitHubCorner from '../src/components/GitHubCorner'
 import QuizBackground from '../src/components/QuizBackground'
 import QuizLogo from '../src/components/QuizLogo'
+import Head from '../src/components/Head'
 
 
 const Title = styled.h1`
@@ -31,7 +32,9 @@ export const QuizContainer = styled.div`
 `
 export default function Home() {
   return (
+    
     <QuizBackground backgroundImage= {db.bg}>
+      <Head image= {db.bg} />
       <QuizContainer>
         <Widget>
           <Widget.Header>
@@ -52,9 +55,8 @@ export default function Home() {
         </Widget>
         <Footer />
       </QuizContainer>
-      <GitHubCorner projectUrl="" />
-    </QuizBackground>
-      
+      <GitHubCorner projectUrl="https://github.com/ronesigismundo/quiz-world.git" />
+    </QuizBackground>  
   )
  
 }
