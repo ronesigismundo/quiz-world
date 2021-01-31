@@ -12,6 +12,7 @@ import QuizBackground from '../src/components/QuizBackground';
 import QuizContainer from '../src/components/QuizContainer';
 import Input from '../src/components/Input';
 import Button from '../src/components/Button';
+
 import Link from '../src/components/Link';
 
 export default function Home() {
