@@ -2,13 +2,13 @@
 import React from 'react';
 import { useRouter } from 'next/router';
 
-import db from '../db.json';
-import Widget from '../src/components/Widget';
-import QuizLogo from '../src/components/QuizLogo';
-import QuizBackground from '../src/components/QuizBackground';
-import QuizContainer from '../src/components/QuizContainer';
-import AlternativesForm from '../src/components/AlternativesForm';
-import Button from '../src/components/Button';
+import db from '../../db.json';
+import Widget from '../../src/components/Widget';
+import QuizLogo from '../../src/components/QuizLogo';
+import QuizBackground from '../../src/components/QuizBackground';
+import QuizContainer from '../../src/components/QuizContainer';
+import AlternativesForm from '../../src/components/AlternativesForm';
+import Button from '../../src/components/Button';
 
 function ResultadoWidget({ results }) {
   const router = useRouter();
@@ -92,7 +92,7 @@ function QuestionWidget({
           height: '150px',
           objectFit: 'cover',
         }}
-        src="http://placehold.it/400x400"
+        src={question.image}
       />
       <Widget.Contet>
         <h2>
